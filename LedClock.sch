@@ -4086,8 +4086,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="A_IN" library="wirepad" deviceset="2,54/1,0" device=""/>
 <part name="LD0_A" library="wirepad" deviceset="2,54/1,0" device=""/>
 <part name="LD1_A" library="wirepad" deviceset="2,54/1,0" device=""/>
-<part name="RA1" library="rcl" deviceset="R-EU_" device="R1206" value="680"/>
-<part name="RA2" library="rcl" deviceset="R-EU_" device="R1206" value="680"/>
+<part name="RLD1" library="rcl" deviceset="R-EU_" device="R1206" value="680"/>
+<part name="RLD2" library="rcl" deviceset="R-EU_" device="R1206" value="680"/>
 <part name="LD0_C" library="wirepad" deviceset="2,54/1,0" device=""/>
 <part name="LD1_C" library="wirepad" deviceset="2,54/1,0" device=""/>
 </parts>
@@ -4261,11 +4261,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="NAME" x="-11.303" y="80.5942" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-11.303" y="75.438" size="1.778" layer="96"/>
 </instance>
-<instance part="RA1" gate="G$1" x="93.98" y="200.66" smashed="yes">
+<instance part="RLD1" gate="G$1" x="93.98" y="200.66" smashed="yes">
 <attribute name="NAME" x="85.09" y="202.1586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="97.79" y="202.438" size="1.778" layer="96"/>
 </instance>
-<instance part="RA2" gate="G$1" x="93.98" y="193.04" smashed="yes">
+<instance part="RLD2" gate="G$1" x="93.98" y="193.04" smashed="yes">
 <attribute name="NAME" x="85.09" y="194.5386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="97.79" y="194.818" size="1.778" layer="96"/>
 </instance>
@@ -4324,12 +4324,12 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <label x="-22.86" y="233.68" size="1.778" layer="95" rot="MR0" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RA1" gate="G$1" pin="1"/>
+<pinref part="RLD1" gate="G$1" pin="1"/>
 <wire x1="88.9" y1="200.66" x2="86.36" y2="200.66" width="0.1524" layer="91"/>
 <label x="86.36" y="200.66" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RA2" gate="G$1" pin="1"/>
+<pinref part="RLD2" gate="G$1" pin="1"/>
 <wire x1="88.9" y1="193.04" x2="86.36" y2="193.04" width="0.1524" layer="91"/>
 <label x="86.36" y="193.04" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -4741,7 +4741,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="LD0_A" class="0">
 <segment>
-<pinref part="RA1" gate="G$1" pin="2"/>
+<pinref part="RLD1" gate="G$1" pin="2"/>
 <wire x1="99.06" y1="200.66" x2="101.6" y2="200.66" width="0.1524" layer="91"/>
 <label x="101.6" y="200.66" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -4753,7 +4753,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="LD1_A" class="0">
 <segment>
-<pinref part="RA2" gate="G$1" pin="2"/>
+<pinref part="RLD2" gate="G$1" pin="2"/>
 <wire x1="99.06" y1="193.04" x2="101.6" y2="193.04" width="0.1524" layer="91"/>
 <label x="101.6" y="193.04" size="1.778" layer="95" xref="yes"/>
 </segment>
