@@ -4171,13 +4171,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="PB1_OUT" gate="P" x="-22.86" y="0"/>
 <instance part="LDOT0_A" gate="P" x="-22.86" y="-10.16"/>
 <instance part="LDOT1_A" gate="P" x="-22.86" y="-15.24"/>
-<instance part="R12" gate="G$1" x="119.38" y="88.9" smashed="yes">
-<attribute name="NAME" x="115.57" y="90.3986" size="1.778" layer="95"/>
-<attribute name="VALUE" x="115.57" y="85.598" size="1.778" layer="96"/>
+<instance part="R12" gate="G$1" x="111.76" y="88.9" smashed="yes">
+<attribute name="NAME" x="107.95" y="90.3986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="107.95" y="85.598" size="1.778" layer="96"/>
 </instance>
-<instance part="R13" gate="G$1" x="119.38" y="81.28" smashed="yes">
-<attribute name="NAME" x="115.57" y="82.7786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="115.57" y="77.978" size="1.778" layer="96"/>
+<instance part="R13" gate="G$1" x="111.76" y="81.28" smashed="yes">
+<attribute name="NAME" x="107.95" y="82.7786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="107.95" y="77.978" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -4533,13 +4533,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </segment>
 <segment>
 <pinref part="R12" gate="G$1" pin="1"/>
-<wire x1="114.3" y1="88.9" x2="111.76" y2="88.9" width="0.1524" layer="91"/>
-<label x="111.76" y="88.9" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="106.68" y1="88.9" x2="104.14" y2="88.9" width="0.1524" layer="91"/>
+<label x="104.14" y="88.9" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="114.3" y1="81.28" x2="111.76" y2="81.28" width="0.1524" layer="91"/>
-<label x="111.76" y="81.28" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="106.68" y1="81.28" x2="104.14" y2="81.28" width="0.1524" layer="91"/>
+<label x="104.14" y="81.28" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="EN2_IN" class="0">
@@ -4652,8 +4652,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </segment>
 <segment>
 <pinref part="R12" gate="G$1" pin="2"/>
-<wire x1="124.46" y1="88.9" x2="127" y2="88.9" width="0.1524" layer="91"/>
-<label x="127" y="88.9" size="1.778" layer="95" xref="yes"/>
+<wire x1="116.84" y1="88.9" x2="119.38" y2="88.9" width="0.1524" layer="91"/>
+<label x="119.38" y="88.9" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="LDOT1_A" class="0">
@@ -4664,8 +4664,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </segment>
 <segment>
 <pinref part="R13" gate="G$1" pin="2"/>
-<wire x1="124.46" y1="81.28" x2="127" y2="81.28" width="0.1524" layer="91"/>
-<label x="127" y="81.28" size="1.778" layer="95" xref="yes"/>
+<wire x1="116.84" y1="81.28" x2="119.38" y2="81.28" width="0.1524" layer="91"/>
+<label x="119.38" y="81.28" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
